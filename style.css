@@ -90,13 +90,13 @@ nav a:hover {
   transform: scale(1.05);
 }
 .navbar-nav .nav-link {
-  color: #2c3e50;
+  color: rgb(44, 62, 80);
   font-size: 1rem;
   margin-left: 15px;
   transition: color 0.3s ease;
 }
 .navbar-nav .nav-link:hover {
-  color: #e67e22;
+  color: navy;
 }
 
 
@@ -196,7 +196,7 @@ nav a:hover {
 }
 .product-category li::before {
   content: "•";
-  color: #e67e22;
+  color: #bb1b1b;
   font-size: 1.2rem;
   position: absolute;
   left: -15px;
@@ -290,6 +290,7 @@ footer {
       color: #2c3e50;
       text-align: center;
       border-top: 1px solid #ddd;
+    
     }
     .footer-buttons {
       margin-bottom: 10px;
@@ -306,7 +307,7 @@ footer {
       border: none;
     }
     .footer-btn:hover {
-      color: #e67e22;
+      color: #bb1b1b;
       transform: scale(1.2);
     }
     .footer-text {
@@ -335,7 +336,7 @@ footer {
       content: '';
       width: 80px;
       height: 4px;
-      background-color: #e67e22;
+      background-color: #bb1b1b;
       position: absolute;
       bottom: -10px;
       left: 50%;
@@ -410,7 +411,7 @@ margin-left: 620%;
 height: auto;
 }
 
-/* New styles for the image below the nav bar */
+
 .contenedor-imagen-cabecera-2
  {
 display: flex;
@@ -421,7 +422,7 @@ width: 100%;
 .imagen-cabecera-2
  {
 width: 100%;
-  max-width: 1200px; /* Limits the image width for larger screens */
+  max-width: 1200px; 
 height: auto;
 border-radius: 10px;
 box-shadow: 0 4px 6px var(--shadow-color);
@@ -457,6 +458,7 @@ transition: transform 0.3s ease;
         }
         h1 {
             margin: 20px 0;
+            text-align: center;
         }
         .contenedor-formulario-pedidos {
             background-color: white;
@@ -492,10 +494,11 @@ transition: transform 0.3s ease;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            
         }
         button:hover {
             background-color: navy;
-        }
+          }
         
         /*login*/
          
@@ -602,18 +605,19 @@ transition: transform 0.3s ease;
       padding: 10px;
     }
     .formulario-contacto-login .formulario-contacto-login {
-      background-color: #e67e22;
+      background-color: navy;
       border: none;
       padding: 12px 30px;
       transition: background-color 0.3s ease;
+      color: #f8f9fa ;
     }
     .formulario-contacto-login .formulario-contacto-login:hover {
-      background-color: #d35400;
+      background-color: #fff;
     }
     .informacion-contacto-login {
       padding: 30px;
       background-color: navy;
-      color: #fff;
+      color: #ffffff;
       border-radius: 10px;
     }
     .informacion-contacto-login h3 {
@@ -635,26 +639,11 @@ transition: transform 0.3s ease;
       font-size: 1.2rem;
       margin-top: 30px;
     }
-
-    
-    .footer {
-      background-color: navy;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    .footer a {
-      color: #e67e22;
-      text-decoration: none;
-    }
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    
+   
     @media (max-width: 768px) {
       .seccion-contacto-login h1 {
         font-size: 2rem;
+        text-align: center;
       }
       .formulario-contacto-login, .informacion-contacto-login {
         padding: 20px;

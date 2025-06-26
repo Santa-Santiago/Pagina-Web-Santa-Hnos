@@ -17,23 +17,6 @@ body {
 
 
 body::before,
-body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 40px;
-  z-index: -1;
-}
-body::before {
-  left: 0;
-  background: linear-gradient(to right, var(--maroon), transparent);
-}
-body::after {
-  right: 0;
-  background: linear-gradient(to left, var(--navy-blue), transparent);
-}
-
 
 header {
   background-color: var(--white);
@@ -178,7 +161,7 @@ nav a:hover {
 
 .productsindex {
   padding: 40px 0;
-  background-color: #f5f9f5;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -299,9 +282,384 @@ nav a:hover {
   z-index: 3;
 }
 
+/* Footer */
+
+footer {
+      background-color: #fff;
+      padding: 20px 0;
+      color: #2c3e50;
+      text-align: center;
+      border-top: 1px solid #ddd;
+    }
+    .footer-buttons {
+      margin-bottom: 10px;
+    }
+    .footer-btn {
+      font-size: 1.8rem;
+      margin: 0 10px;
+      color: #2c3e50;
+      transition: transform 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px;
+      background: none;
+      border: none;
+    }
+    .footer-btn:hover {
+      color: #e67e22;
+      transform: scale(1.2);
+    }
+    .footer-text {
+      font-size: 0.9rem;
+    }
 
 @media (max-width: 768px) {
   .product-category {
     width: 90%;
   }
 }
+
+/* Productos */
+    .seccion-productos-1 {
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+    .seccion-productos-1 h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #2c3e50;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .seccion-productos-1 h2::after {
+      content: '';
+      width: 80px;
+      height: 4px;
+      background-color: #e67e22;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .tarjeta-producto {
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      height: 100%;
+      transition: box-shadow 0.3s ease;
+    }
+    .tarjeta-producto:hover {
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .tarjeta-producto img {
+      max-width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .tarjeta-producto h3 {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .tarjeta-producto p {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .tarjeta-producto  .precio-producto {
+      font-size: 1rem;
+      color: #d35400;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .tarjeta-producto .boton-producto {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .tarjeta-producto {
+        margin-bottom: 20px;
+      }
+      .seccion-productos-1 h2 {
+        font-size: 1.8rem;
+      }
+    }
+
+  
+/*pedidos*/
+.logotipo-2 {
+align-items: center;
+margin-bottom: 10px; 
+
+}
+
+.icono-logotipo-pedidos {
+margin-right: 10px;
+transition: background-color 0.9s ease, color 0.9s ease;
+  width: 20px;     /* Ajustá el tamaño según lo que necesites */
+  height: auto;     /* Mantiene la proporción original */
+display: block;
+margin: 0 auto;
+margin-left: 620%;
+  width: 60%; /* 60% del contenedor padre */
+height: auto;
+}
+
+/* New styles for the image below the nav bar */
+.contenedor-imagen-cabecera-2
+ {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.imagen-cabecera-2
+ {
+width: 100%;
+  max-width: 1200px; /* Limits the image width for larger screens */
+height: auto;
+border-radius: 10px;
+box-shadow: 0 4px 6px var(--shadow-color);
+border: 2px solid var(--black);
+transition: transform 0.3s ease;
+}
+
+.imagen-cabecera-2:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .encabezado-pedidos {
+            color: black;
+            padding: 10px 0;
+        }
+        .encabezado-pedidos nav  {
+            display: inline-block;
+        }
+        .enlace-navegacion-pedidos nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .contacto-encabezado  {
+            float: right;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .contenedor-formulario-pedidos {
+            background-color: white;
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .grupo-campo-pedido {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .grupo-campo-pedido label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .grupo-campo-pedido input, .grupo-campo-pedido textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .grupo-campo-pedido textarea {
+            height: 100px;
+        }
+        button {
+            background-color: navy;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: navy;
+        }
+        
+        /*login*/
+         
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .encabezado-login {
+            color: black;
+            padding: 10px 0;
+        }
+        .encabezado-login nav {
+            display: inline-block;
+        }
+        .encabezado-login nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .encabezado-login .contact {
+            float: right;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .contenedor-formulario-login {
+            background-color: white;
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .grupo-campo-login {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .grupo-campo-login label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .grupo-campo-login input, .grupo-campo-login textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .grupo-campo-login textarea {
+            height:33px;
+        }
+        button {
+            background-color: navy;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: navy;
+        }
+
+        /*Contacto*/ 
+
+        
+    body {
+      font-family: Arial, sans-serif;
+      color: #2c3e50;
+      background-color: #f8f9fa;
+      margin: 0;
+    }
+
+    
+    .seccion-contacto-login {
+      padding: 80px 0;
+      background-color: #f5f5f5;
+    }
+    .seccion-contacto-login h1 {
+      font-size: 2.5rem;
+      color: navy;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .seccion-contacto-login p {
+      font-size: 1.1rem;
+      color: #7f8c8d;
+      text-align: center;
+    }
+    .formulario-contacto-login {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .formulario-contacto-login .form-control {
+      border-radius: 5px;
+      border: 1px solid #ced4da;
+      padding: 10px;
+    }
+    .formulario-contacto-login .formulario-contacto-login {
+      background-color: #e67e22;
+      border: none;
+      padding: 12px 30px;
+      transition: background-color 0.3s ease;
+    }
+    .formulario-contacto-login .formulario-contacto-login:hover {
+      background-color: #d35400;
+    }
+    .informacion-contacto-login {
+      padding: 30px;
+      background-color: navy;
+      color: #fff;
+      border-radius: 10px;
+    }
+    .informacion-contacto-login h3 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .informacion-contacto-login p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .contenedor-mapa-login {
+      height: 400px;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #7f8c8d;
+      font-size: 1.2rem;
+      margin-top: 30px;
+    }
+
+    
+    .footer {
+      background-color: navy;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    
+    @media (max-width: 768px) {
+      .seccion-contacto-login h1 {
+        font-size: 2rem;
+      }
+      .formulario-contacto-login, .informacion-contacto-login {
+        padding: 20px;
+      }
+      .contenedor-mapa-login {
+        height: 300px;
+      }
+    }

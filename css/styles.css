@@ -266,8 +266,8 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   z-index: 1;
 }
@@ -416,14 +416,14 @@ height: auto;
 
 
 .contenedor-imagen-cabecera-2
-{
+ {
 display: flex;
 justify-content: center;
 width: 100%;
 }
 
 .imagen-cabecera-2
-{
+ {
 width: 100%;
   max-width: 1200px; 
 height: auto;
@@ -504,91 +504,71 @@ transition: transform 0.3s ease;
           }
         
         /*login*/
-        
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.encabezado-login {
-    color: black;
-    padding: 10px 0;
-}
-.encabezado-login nav {
-    display: inline-block;
-}
-.encabezado-login nav a {
-    color: black;
-    margin: 0 15px;
-    text-decoration: none;
-}
-.encabezado-login .contact {
-    float: right;
-    margin-right: 20px;
-}
-h1 {
-    margin: 20px 0;
-}
-.contenedor-formulario-login {
-    background-color: white;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.grupo-campo-login {
-    margin-bottom: 15px;
-    text-align: left;
-}
-.grupo-campo-login label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-.grupo-campo-login input, .grupo-campo-login textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.grupo-campo-login textarea {
-    height: 33px;
-}
-button {
-    background-color: navy;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: navy;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 120px);
-}
-.row {
-    display: flex;
-    gap: 20px;
-}
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .col-md-5 {
-        width: 100%;
-    }
-}
+         
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .encabezado-login {
+            color: black;
+            padding: 10px 0;
+        }
+        .encabezado-login nav {
+            display: inline-block;
+        }
+        .encabezado-login nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .encabezado-login .contact {
+            float: right;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .contenedor-formulario-login {
+            background-color: white;
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .grupo-campo-login {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .grupo-campo-login label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .grupo-campo-login input, .grupo-campo-login textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .grupo-campo-login textarea {
+            height:33px;
+        }
+        button {
+            background-color: navy;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: navy;
+        }
 
         /*Contacto*/ 
 
@@ -662,7 +642,7 @@ button:hover {
       font-size: 1.2rem;
       margin-top: 30px;
     }
-  
+   
     @media (max-width: 768px) {
       .seccion-contacto-login h1 {
         font-size: 2rem;

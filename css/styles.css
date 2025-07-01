@@ -538,10 +538,13 @@ transition: transform 0.3s ease;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+          }
+
         .grupo-campo-login {
             margin-bottom: 15px;
             text-align: left;
+
+            
         }
         .grupo-campo-login label {
             display: block;
@@ -596,6 +599,7 @@ transition: transform 0.3s ease;
       color: #7f8c8d;
       text-align: center;
     }
+    
     .formulario-contacto-login {
       background-color: #f8f9fa;
       padding: 30px;

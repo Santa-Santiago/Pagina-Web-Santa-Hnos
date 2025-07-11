@@ -18,10 +18,6 @@ header {
     background-color: var(--white);
     padding: 20px;
     box-shadow: 0 4px 6px var(--shadow-color);
-    border-left: 3px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
-    border-right: 3px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
 }
 
 .navbar-brand img {
@@ -62,10 +58,6 @@ header {
     justify-content: center;
     text-align: center;
     color: var(--black);
-    border-left: 3px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
-    border-right: 3px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
 }
 
 .hero-background {
@@ -148,10 +140,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-left: 5px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
-    border-right: 5px solid;
-    border-image: linear-gradient(to bottom, var(--maroon), var(--navy-blue)) 1;
 }
 
 .testimonial-background {
@@ -647,10 +635,4 @@ button:hover {
   .col-lg-6 {
     margin-bottom: 20px;
   }
-}
-
-    .col-lg-6 {
-        margin-bottom: 20px;
-    }
-}
 }

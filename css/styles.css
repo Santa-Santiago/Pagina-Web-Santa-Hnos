@@ -322,7 +322,7 @@ footer.footer .social-icons a:hover {
     .tarjeta-producto .precio-producto {
       font-size: 1rem;
       color: #d35400;
-      font-weight: bold;
+      font-weight: normal;
       margin-bottom: 15px;
     }
 
@@ -360,7 +360,7 @@ footer.footer .social-icons a:hover {
 
 .encabezado-pedidos .nav-link {
     color: var(--black);
-    font-weight: 500;
+    font-weight: normal;
     transition: color 0.3s ease;
 }
 
@@ -381,7 +381,7 @@ footer.footer .social-icons a:hover {
 
 .grupo-campo-pedido .form-label {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     color: var(--black);
 }
 .grupo-campo-pedido .form-control {
@@ -410,7 +410,7 @@ footer.footer .social-icons a:hover {
     background-color: var(--primary-color);
     border: none;
     padding: 10px;
-    font-weight: bold;
+    font-weight: normal;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -455,7 +455,7 @@ footer.footer .social-icons a:hover {
     font-family: 'Open Sans', sans-serif;
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .grupo-campo-login input,

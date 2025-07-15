@@ -418,6 +418,12 @@ main.container h1 {
     padding: 10px;
     font-weight: normal;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    border-radius: 8px;
+    width: 100%; 
+    display: block;
+
 }
 
 .boton-pedidos-enviar {

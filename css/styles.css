@@ -509,17 +509,25 @@ main.container h1 {
     color: #7f8c8d;
     text-align: center;
 }
-
-button {
-    background-color: navy;
-    color: white;
-    padding: 10px 20px;
+.boton-login {
+    background-color: var(--primary-color);
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px;
+    font-weight: normal;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: navy;
+    border-color: #001f3f;
+    border: 1px solid #001f3f;
+    color: white;
+    transform: translateY(-2px);
+    border-radius: 8px;
+    width: 100%; 
+    display: block;
+
 }
 
-button:hover {
+
+.boton-login:hover {
     background-color: #001f3f;
 }
 

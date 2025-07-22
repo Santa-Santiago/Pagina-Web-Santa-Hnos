@@ -342,12 +342,6 @@ footer.footer .social-icons a:hover {
     }
 /*pedidos*/
 
-.pedidos-body {
-    background-image: url('../Img/Ruta.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 main.container h1 {
     color: #ffffff;
